@@ -1,0 +1,18 @@
+{
+    "profile":{
+        "rol":"Web Developer",
+        "description": "More than 10 years of experience developing with web technologies. My field of expertise is CSS, and I am a master in Javascript. <br> I also master the technologies that have to do with the backroom of the web, such as PHP and Python. My purpose is to deliver any project in a timely manner, with the highest quality, and with absolute respect for the good practices."
+    },
+    "experience":{
+        "first-job-title":"Back-end Dev",
+        "first-job-dates":"January 1995 - January 2000",
+        "first-job-description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "second-job-title":"Front-end Dev",
+        "second-job-dates":"Feb 2000 - Mar 2005",
+        "second-job-description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "last-job-title":"Back-end Dev",
+        "last-job-dates":"January 2017 - On going",
+        "last-job-description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+
+    }
+}

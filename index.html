@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Nereo's Portfolio</title>
   </head>
-  <body class="dark">
+  <body>
     <header class="header">
       <div class="switches">
         <div id="toggle-theme" class="toggle-theme">
@@ -16,12 +16,21 @@
           <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
         </div>
       </div>
-      <div id="toggle-colors" class="colors">
-        <div data-color="hsl(214,84%,56%)" class="colors_item colors_item--blue"></div>
-        <div data-color="hsl(150,84%,56%)" class="colors_item colors_item--green"></div>
-        <div data-color="hsl(276,84%,56%)" class="colors_item colors_item--purple"></div>
-        <div data-color="hsl(46,84%,56%)" class="colors_item colors_item--orange"></div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="assets/images/es.svg" alt="Spain flag">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="assets/images/gb.svg" alt="UK flag">
+        </div>
       </div>
+      <div id="toggle-colors" class="colors">
+          <div data-color="hsl(214,84%,56%)" class="colors_item colors_item--blue"></div>
+          <div data-color="hsl(150,84%,56%)" class="colors_item colors_item--green"></div>
+          <div data-color="hsl(276,84%,56%)" class="colors_item colors_item--purple"></div>
+          <div data-color="hsl(46,84%,56%)" class="colors_item colors_item--orange"></div>
+      </div>
+     
     </header>
     <main class="main">
       <section class="column column--left">
@@ -32,7 +41,7 @@
           </div>
           <div class="card_header">
             <h2 class="card_title no-margin">Nereo Ontiveros</h2>
-            <p class="card_subtitle no-margin">Software Developer</p>
+            <p class="card_subtitle no-margin" data-section="profile" data-value="rol">Software Developer</p>
           </div>
           <div class="card_body">
             <div class="card_link">
@@ -43,7 +52,7 @@
               <i class="fas fa-phone-alt icon"></i>
               <a href="tel:123456789">+44 123456789</a>
             </div>
-            <p class="card_text">
+            <p class="card_text" data-section="profile" data-value="description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
                
@@ -57,31 +66,31 @@
           <div class="experience">
             <img src="assets/images/logo.png" alt="logo" class="experience_image">
             <div class="experience_info">
-              <p class="experience_time">
+              <p class="experience_time" data-section="experience" data-value="first-job-dates">
                 Feb 2017 - Current
               </p>
-              <h3 class="experience_job">Front End Developer</h3>
-              <p class="experience_description">An vim commodo dolorem volutpat, cu expetendis voluptatum usu, et mutat consul adversarium his. </p>
+              <h3 class="experience_job" data-section="experience" data-value="first-job-title">Front End Developer</h3>
+              <p class="experience_description" data-section="experience" data-value="first-job-description">An vim commodo dolorem volutpat, cu expetendis voluptatum usu, et mutat consul adversarium his. </p>
             </div>
           </div>
           <div class="experience">
             <img src="assets/images/logo.png" alt="logo" class="experience_image">
             <div class="experience_info">
-              <p class="experience_time">
+              <p class="experience_time" data-section="experience" data-value="second-job-dates">
                 Feb 2017 - Current
               </p>
-              <h3 class="experience_job">Front End Developer</h3>
-              <p class="experience_description">An vim commodo dolorem volutpat, cu expetendis voluptatum usu, et mutat consul adversarium his. </p>
+              <h3 class="experience_job" data-section="experience" data-value="second-job-title">Front End Developer</h3>
+              <p class="experience_description" data-section="experience" data-value="second-job-description">An vim commodo dolorem volutpat, cu expetendis voluptatum usu, et mutat consul adversarium his. </p>
             </div>
           </div>
           <div class="experience">
             <img src="assets/images/logo.png" alt="logo" class="experience_image">
             <div class="experience_info">
-              <p class="experience_time">
+              <p class="experience_time" data-section="experience" data-value="last-job-dates">
                 Feb 2017 - Current
               </p>
-              <h3 class="experience_job">Front End Developer</h3>
-              <p class="experience_description">An vim commodo dolorem volutpat, cu expetendis voluptatum usu, et mutat consul adversarium his. </p>
+              <h3 class="experience_job" data-section="experience" data-value="last-job-title">Front End Developer</h3>
+              <p class="experience_description" data-section="experience" data-value="last-job-description">An vim commodo dolorem volutpat, cu expetendis voluptatum usu, et mutat consul adversarium his. </p>
             </div>
           </div>
         </article>

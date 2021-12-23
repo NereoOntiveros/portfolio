@@ -1,0 +1,18 @@
+{
+    "profile":{
+        "rol": "Desarrollador Web",
+        "description":"Mas de 10 años de experiencia desarrollando con tecnologías web. Mi campo de especialización es CSS y soy un maestro en Javascript. <br> También domino las tecnologías que tienen que ver con la trastienda de la web como son PHP y Python. Mi propósito es entregar cualquier proyecto en tiempo y forma con la más excelente calidad y con absoluto respeto a las buenas prácticas."
+    },
+    "experience":{
+        "first-job-title":"Desarrollador Back-end",
+        "first-job-dates":"Enero 1995 - Enero 2000",
+        "first-job-description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "second-job-title":"Desarrollador Front-end",
+        "second-job-dates":"Feb 2000 - Mar 2005",
+        "second-job-description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "last-job-title":"Desarrollador Back-end",
+        "last-job-dates":"Enero 2017 - Actualmente",
+        "last-job-description":"Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+
+    }
+}
